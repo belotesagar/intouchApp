@@ -1,0 +1,65 @@
+.contactlist {
+  background-color: transparent !important;
+}
+
+.btn-responsive {
+  white-space: normal !important;
+  word-wrap: break-word;
+}
+
+.contact-details {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 575.98px) {
+  .form-inline .form-control {
+    display: inline-block;
+    width: 97px;
+    vertical-align: middle;
+    margin-right: 1rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 819.98px) {
+
+  .form-inline .form-control {
+    display: inline-block;
+    width: 110px;
+    vertical-align: middle;
+    margin-right: 1rem;
+  }
+
+  .contact-details {
+    margin-bottom: 39px;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 879.98px) {
+
+  .form-inline .form-control {
+    display: inline-block;
+    width: 140px;
+    vertical-align: middle;
+    margin-right: 1rem;
+  }
+
+  .contact-details {
+    margin-bottom: 39px;
+  }
+
+}
+
+@media (min-width: 880px) and (max-width: 1024.98px) {
+
+  .form-inline .form-control {
+    display: inline-block;
+    width: 140px;
+    vertical-align: middle;
+    margin-right: 1rem;
+  }
+
+  .contact-details {
+    margin-bottom: 10px;
+  }
+
+}
